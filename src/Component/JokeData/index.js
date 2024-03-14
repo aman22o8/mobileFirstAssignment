@@ -21,7 +21,7 @@ const JokeData = () => {
 
   const handleOnClick=()=>{
     
-    navigate('/loginform')
+    navigate('/')
   }
   
   return (

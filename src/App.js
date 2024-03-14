@@ -8,8 +8,8 @@ const  App=()=> {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/loginform" element={<LoginForm/>}/>
-        <Route path="/" element={<JokeData/>}/>
+        <Route path="/" element={<LoginForm/>}/>
+        <Route path="/jokedata" element={<JokeData/>}/>
       </Routes>
     </BrowserRouter>
     // <div className="App "style={{height:'100vh'}}>

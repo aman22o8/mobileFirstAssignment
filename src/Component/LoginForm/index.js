@@ -33,7 +33,7 @@ const LoginForm = () => {
         if(email==="aman.na@gmail.com" && password==="1234"){
           console.log("password is corrct")
           setValidated(true)
-          navigate('/')
+          navigate('/jokedata')
 
         }
     
